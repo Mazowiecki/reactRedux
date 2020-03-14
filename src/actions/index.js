@@ -11,3 +11,7 @@ export const decrement = (value = 1) => ({
 export const reset = () => ({
     type: 'RESET'
 });
+
+export const signIn = () => ({
+    type: 'SIGN_IN'
+});
